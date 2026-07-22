@@ -1,0 +1,10 @@
+# Środowisko wirtualne
+venv/
+
+# Tajne pliki z hasłami
+.env
+
+# Pliki tymczasowe Pythona i Jupytera
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
