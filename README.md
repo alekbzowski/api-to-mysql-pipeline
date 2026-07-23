@@ -3,15 +3,17 @@
 Automatyczny pipeline ETL w Pythonie pobierający dane o meczach z API `football-data.org` i zapisujący je do bazy danych MySQL.
 
 ## 🚀 Cechy projektu
+
 * **Idempotentność:** Bezpieczne, wielokrotne uruchamianie skryptu w ciągu dnia bez ryzyka dublowania rekordów (`ON DUPLICATE KEY UPDATE`).
-* **Relacyjna baza danych:** Przechowywanie szczegółowych informacji o meczach, wynikach i statusach w MySQL.
-* **Eksploracja danych:** Dołączony Jupyter Notebook z analizą i statystykami pobranych meczów.
+* **Relacyjna baza danych:** Przechowywanie szczegółowych informacji o meczach (`matches`) oraz tabeli ligowej (`standings`) w MySQL.
+* **Eksploracja i wizualizacja danych:** Dołączony Jupyter Notebook z analizą statystyk oraz wygenerowanym wykresem punktowym dla TOP 6 zespołów Premier League.
 
 ## 🛠️ Technologie
+
 * Python 3
 * MySQL & MySQL Workbench
 * SQLAlchemy & Requests
-* Pandas & Jupyter Lab
+* Pandas, Matplotlib & Jupyter Lab
 
 ## 📦 Instrukcja uruchomienia
 
