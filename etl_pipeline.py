@@ -59,5 +59,8 @@ def run_etl():
     else:
         print(f"Błąd pobierania danych z API. Kod HTTP: {response.status_code}")
 
+    print("--- Pipeline zakończył pracę pomyślnie ---")
+	
+
 if __name__ == "__main__":
     run_etl()
